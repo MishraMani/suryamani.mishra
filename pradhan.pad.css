@@ -206,6 +206,18 @@ background-color: #FF6600
 }
 
 
+.greeting{
+    animation: blinkingText3 1s infinite;
+            font-family: 'Noto Serif', serif;
+            font-weight:bold;
+            text-align: center;
+            font-size: 25px;
+        }
+    @keyframes blinkingText3{
+    0%{     color: white;    }
+    50%{    color: orange; }
+    100%{   color: green;  }
+}
 
 
 
